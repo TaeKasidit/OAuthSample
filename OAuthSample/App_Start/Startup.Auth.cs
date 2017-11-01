@@ -66,12 +66,12 @@ namespace OAuthSample
 
 
             app.UseFacebookAuthentication(
-               appId: "942949305783703",
-               appSecret: "4132998e4572c3296fabc5551174af00");
+               appId: "",
+               appSecret: "");
 
             app.UseGoogleAuthentication(
-                 clientId: "841139351016-n3ou63g1kepb4a0kmn57losebr67ndou.apps.googleusercontent.com",
-                 clientSecret: "Dcz5XCRIqRG3DAJjzmOu9Z1f");
+                 clientId: "",
+                 clientSecret: "");
         }
     }
 }
